@@ -1,0 +1,30 @@
+#gameBoard {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+#gameContainer {
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    border: 12px solid rgba(136, 153, 168, 0.233);
+    border-radius: 12px;
+}
+
+#gameBoard div {
+    display: flex;
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: black 4px solid;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+}
