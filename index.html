@@ -6,9 +6,20 @@
     <link rel="stylesheet" href="ticTacToe.css" />
   </head>
   <body>
+    <div id="formContainer">
+      <form id="inputForm">        
+        <input type="text" class="inputFieldName" id="player1Name" placeholder="Player 1"> 
+        <input type="text" class="inputFieldMarker" id="player1Marker" value="X">
+        
+        <input type="text" class="inputFieldName" id="player2Name" placeholder="Player 2">
+        <input type="text" class="inputFieldMarker" id="player2Marker" value="O">
+        <button type="button" id="newGame">New Game</button>
+        
+      </form>
+      <div id="showResult"></div 
+    </div>
     <div id="gameContainer">
-      <div id="gameBoard">         
-      </div>
+      <div id="gameBoard"></div>
     </div>
     <script src="ticTacToe.js"></script>
   </body>

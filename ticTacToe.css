@@ -2,29 +2,59 @@
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
     position: relative;
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     min-width: 300px;
     min-height: 300px;
     overflow: hidden;
 }
 
 #gameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     min-width: 300px;
     min-height: 300px;
     overflow: hidden;
-    border: 12px solid rgba(136, 153, 168, 0.233);
+    border: 5px solid rgba(136, 153, 168, 0.233);
     border-radius: 12px;
 }
 
 #gameBoard div {
     display: flex;
     font-family: "Arial Black", Gadget, sans-serif;
-    border: black 4px solid;
+    border: black 2px solid;
     font-size: 80px;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+
+#formContainer {
+    width: 40vw;
+}
+#inputForm {
+    display: grid;
+    grid-template: 7fr 30px / 7fr 30px;
+    width: 40vw;
+    height: 15%;
+    grid-gap: 5px;   
+}
+
+.inputFieldMarker {    
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#showResult {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: aquamarine;   
 }
